@@ -8,7 +8,9 @@ contract Game4 {
 
   constructor(uint secret) {
     bytes32 slot = SECRET_SLOT;
+    // this writes in assembly language
     assembly {
+      // this is an opcode that stores secret at the address of slot
       sstore(slot, secret)
     }
   }

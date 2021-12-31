@@ -1,5 +1,5 @@
 //SPDX-License-Identifier: Unlicense
-pragma solidity ^0.7.3;
+pragma solidity ^0.8.4;
 
 contract Game2 {
   uint8 y = 210;
